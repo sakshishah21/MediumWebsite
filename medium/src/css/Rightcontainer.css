@@ -1,0 +1,51 @@
+.content {
+  display: flex;
+}
+
+.right-container {
+  flex-basis: 40%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 8rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.left-container {
+  width: 70%;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column; /* Change to column layout */
+  }
+  
+  .right-container {
+    flex-basis: 100%; /* Expand to full width */
+  }
+  
+  .container {
+    margin-left: 0; /* Remove the left margin */
+    margin-top: 1rem; /* Add some top margin for spacing */
+  }
+  
+  .row {
+    flex-direction: column; 
+    align-items: stretch; 
+  }
+  
+  .left-container {
+    width: 100%; 
+    margin-bottom: 1rem; 
+  }
+  
+}

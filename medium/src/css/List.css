@@ -1,0 +1,139 @@
+.post{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0px;
+    margin-left: 10rem;
+    padding: 20px;
+    /* border-bottom: 1px solid #dbdbdb; */
+    border-bottom: none;
+    
+}
+.post-container{
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin:auto;
+}
+.post-top{
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    align-items: center;
+    margin-top: 30px;
+}
+h2 {
+    letter-spacing: 0;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(41, 41, 41, 1);
+    line-height: 20px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 3rem;
+}
+ .post{
+    display: grid;
+    margin: 0px 10px; 
+    grid-template-columns: repeat(3,2fr); 
+    /* grid-auto-rows:400px; */
+     /* column-gap: 1fr; */
+ }
+
+ .span1{
+     /* display: flex;  */
+    flex-direction: column;
+    display: inline;
+    display: grid;
+    display: table-cell;
+    color: rgba(230, 230, 230, 1);
+    letter-spacing: -0.014em;
+    line-height: 38px;
+    font-size: 32px;
+    font-weight: 500;
+    
+} 
+.post-top svg{
+    position: relative;
+    top: -3.1rem;
+}
+.date{
+    font-size: 13px;
+    color: rgba(117, 117, 117, 1);
+    margin-top: -0.5rem;
+    width: max-content;
+}
+
+.recommended-posts {
+    display: grid;
+    grid-template-columns: repeat
+}
+.post-header{
+    margin-left: 16px;
+}
+.row {
+    display: flex;
+  }
+  
+  .right-container {
+    width: 20%;
+    padding: 1rem;
+  }
+  .right-container {
+    width: 80%;
+    padding: 1rem;
+    
+  }
+  .container{
+    display: flex;
+    margin-left: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .container h2{
+    margin: 0;
+    position: absolute;
+    margin-right: 14rem;
+  }
+  .sakshi{
+    color:black;
+    border-radius:99em;
+    background-color: rgba(242, 242, 242, 1);
+    border: none;
+    margin-top: 1.7rem;
+    width: 130px;
+    margin-right: -0.5rem;
+    transition: width 300s;
+    
+  }
+  .sakshi:hover{
+    background-color: rgba(176, 170, 170, 0.815);
+    cursor: pointer;
+    transition:all;
+  }
+
+  .p2{
+    color: rgba(26, 137, 23, 1);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+  .bottom{
+    color: rgba(117, 117, 117, 1);
+    line-height: 20px;
+    font-size: 14px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    padding: 5px;
+  }
+
+ @media (max-width: 768px) {
+  .container h2{
+    margin: 0;
+    position: absolute;
+  }
+ }
+ 
+
+
+
